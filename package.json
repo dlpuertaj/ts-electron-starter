@@ -1,0 +1,21 @@
+{
+  "name": "ts-desktop",
+  "version": "1.0.0",
+  "main": "dist/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && electron .",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/electron": "^1.6.10",
+    "@types/node": "^22.7.1",
+    "electron": "^32.1.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  }
+}
